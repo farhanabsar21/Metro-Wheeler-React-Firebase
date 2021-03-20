@@ -1,0 +1,23 @@
+[
+    {
+        "id": "car",
+        "name": "CAR",
+        "image": "https://img.icons8.com/plasticine/100/000000/car--v1.png"
+    },
+    {
+        "id": "bus",
+        "name": "BUS",
+        "image": "https://img.icons8.com/dusk/64/000000/bus--v1.png"
+    },
+    {
+        "id": "bike",
+        "name": "BIKE",
+        "image": "https://img.icons8.com/dusk/64/000000/motorcycle.png"
+    },
+    {
+        "id": "train",
+        "name": "TRAIN",
+        "image": "https://img.icons8.com/dusk/64/000000/train.png"
+    }
+]
+

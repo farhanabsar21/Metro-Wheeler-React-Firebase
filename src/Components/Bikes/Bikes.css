@@ -1,0 +1,88 @@
+.Bikes{
+    width: 100%;
+    height: 600px;
+    padding: 10px;
+    background-color: #fff;
+    margin-top: 20px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.Bikes .location{
+    width: 25%;
+    padding: 10px;
+    margin: 10px;
+    background: #ffece6;
+    border-radius: 10px;
+}
+
+.Bikes .map{
+    width: 75%;
+    padding: 10px;
+    margin: 10px;
+    background: #ffece6;
+    border-radius: 10px;
+}
+.Bikes label{
+    color: #222;
+    margin: 10px 0;
+}
+.Bikes select{
+    display: block;
+    padding: 10px;
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    margin: 10px 0;
+} 
+
+.Bikes button{
+    outline: none;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    background-color: #cc3300;
+    color: #fff;
+    font-size: 16px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.Bikes .bike-data ul{
+    padding: 10px;
+} 
+.Bikes .bike-data li{
+    list-style-type: none;
+    padding: 10px;
+    width: 100%;
+    background-color: #fff;
+    margin-top: 7px;
+    border-radius: 5px;
+} 
+.bike-data .bike-data-collection{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bike-data .bike-data-collection img{
+    width: 32px;
+    height: 32px;
+}
+
+@media only screen and (max-width: 600px){
+    .Bikes{
+        flex-direction: column;
+        height: auto;
+    }
+    .Bikes .location{
+        width: 100%;
+        margin: 10px 0;
+    }
+    .Bikes .map{
+        width: 100%; 
+    }
+}

@@ -1,0 +1,87 @@
+.Trains{
+    width: 100%;
+    height: 600px;
+    padding: 10px;
+    background-color: #fff;
+    margin-top: 20px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.Trains .location{
+    width: 25%;
+    padding: 10px;
+    margin: 10px;
+    background: rgba(204, 51, 0,0.1);
+    border-radius: 10px;
+}
+
+.Trains .map{
+    width: 75%;
+    padding: 10px;
+    margin: 10px;
+    background: rgba(204, 51, 0,0.1);
+    border-radius: 10px;
+}
+.Trains label{
+    color: #222;
+    margin: 10px 0;
+}
+.Trains select{
+    display: block;
+    padding: 10px;
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    margin: 10px 0;
+} 
+
+.Trains button{
+    outline: none;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    background-color: #cc3300;
+    color: #fff;
+    font-size: 16px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.Trains .train-data ul{
+    padding: 10px;
+} 
+.Trains .train-data li{
+    list-style-type: none;
+    padding: 10px;
+    width: 100%;
+    background-color: #fff;
+    margin-top: 7px;
+    border-radius: 5px;
+} 
+.train-data .train-data-collection{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.train-data .train-data-collection img{
+    width: 32px;
+    height: 32px;
+}
+@media only screen and (max-width: 600px){
+    .Trains{
+        flex-direction: column;
+        height: auto;
+    }
+    .Trains .location{
+        width: 100%;
+        margin: 10px 0;
+    }
+    .Trains .map{
+        width: 100%; 
+    }
+}

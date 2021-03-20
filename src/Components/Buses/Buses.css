@@ -1,0 +1,89 @@
+.Buses{
+    width: 100%;
+    height: 600px;
+    padding: 10px;
+    background-color: #fff;
+    margin-top: 20px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.Buses .location{
+    width: 25%;
+    padding: 10px;
+    margin: 10px;
+    background: rgba(204, 51, 0,0.1);
+    border-radius: 10px;
+}
+
+.Buses .map{
+    width: 75%;
+    padding: 10px;
+    margin: 10px;
+    background: rgba(204, 51, 0,0.1);
+    border-radius: 10px;
+}
+
+.Buses label{
+    color: #222;
+    margin: 10px 0;
+}
+.Buses select{
+    display: block;
+    padding: 10px;
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    margin: 10px 0;
+} 
+
+.Buses button{
+    outline: none;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    background-color: #cc3300;
+    color: #fff;
+    font-size: 16px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.Buses .bus-data ul{
+    padding: 10px;
+} 
+.Buses .bus-data li{
+    list-style-type: none;
+    padding: 10px;
+    width: 100%;
+    background-color: #fff;
+    margin-top: 7px;
+    border-radius: 5px;
+} 
+.bus-data .bus-data-collection{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bus-data .bus-data-collection img{
+    width: 32px;
+    height: 32px;
+}
+
+@media only screen and (max-width: 600px){
+    .Buses{
+        flex-direction: column;
+        height: auto;
+    }
+    .Buses .location{
+        width: 100%;
+        margin: 10px 0;
+    }
+    .Buses .map{
+        width: 100%; 
+    }
+}
